@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazilito - Gestión de Causas de Cumplimiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imag/FAZILITO.png" alt="Fazilito Logo">
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1><span data-letter="F">F</span><span data-letter="A">A</span><span data-letter="Z">Z</span><span data-letter="I">I</span><span data-letter="L">L</span><span data-letter="I">I</span><span data-letter="T">T</span><span data-letter="O">O</span></h1>
+        <p>UNA NUEVA FORMA DE EXIGIR EL CUMPLIMINETO DEL PAGO DE PENSIÓN</p>
+        <button class="cta-button" onclick="scrollToServices()">Ver Servicios</button>
+    </section>
+
+    <section class="services" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        
+        <div class="services-grid">
+            <div class="service-card" data-service="Conversión a UTM">
+                <img src="imag/1.png" alt="1 Icon" class="service-icon">
+                <span class="service-number">1</span>
+                <h3>Conversión a UTM</h3>
+            </div>
+            <div class="service-card" data-service="Retención al empleador">
+                <img src="imag/2.png" alt="2 Icon" class="service-icon">
+                <span class="service-number">2</span>
+                <h3>Retención al empleador</h3>
+            </div>
+            <div class="service-card" data-service="Información del actual empleador o entidad que debe retener">
+                <img src="imag/3.png" alt="3 Icon" class="service-icon">
+                <span class="service-number">3</span>
+                <h3>Información del actual empleador o entidad que debe retener</h3>
+            </div>
+            <div class="service-card" data-service="Pago de Pensión como Usufructo, Uso o Habitación">
+                <img src="imag/4.png" alt="4 Icon" class="service-icon">
+                <span class="service-number">4</span>
+                <h3>Pago de Pensión como Usufructo, Uso o Habitación</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud de Prenda o Hipoteca">
+                <img src="imag/5.png" alt="5 Icon" class="service-icon">
+                <span class="service-number">5</span>
+                <h3>Solicitud de Prenda o Hipoteca</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud de Prenda o Hipoteca del Alimentante que Sale del País">
+                <img src="imag/6.png" alt="6 Icon" class="service-icon">
+                <span class="service-number">6</span>
+                <h3>Solicitud de Prenda o Hipoteca del Alimentante que Sale del País</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud de Multa al Empleador a Beneficio Fiscal">
+                <img src="imag/7.png" alt="7 Icon" class="service-icon">
+                <span class="service-number">7</span>
+                <h3>Solicitud de Multa al Empleador Beneficio Fiscal</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud de Orden de Arresto y Tramitación">
+                <img src="imag/8.png" alt="8 Icon" class="service-icon">
+                <span class="service-number">8</span>
+                <h3>Solicitud de Orden de Arresto y Tramitación</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud para que la TGR haga Retención de Impuestos Anual">
+                <img src="imag/9.png" alt="9 Icon" class="service-icon">
+                <span class="service-number">9</span>
+                <h3>Solicitud para que la TGR haga Retención de Impuestos Anual</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud de Retención Bancaria">
+                <img src="imag/10.png" alt="10 Icon" class="service-icon">
+                <span class="service-number">10</span>
+                <h3>Solicitud de Retención Bancaria</h3>
+            </div>
+            <div class="service-card" data-service="Suspensión de la Licencia de Conducir">
+                <img src="imag/11.png" alt="11 Icon" class="service-icon">
+                <span class="service-number">11</span>
+                <h3>Suspensión de la Licencia de Conducir</h3>
+            </div>
+            <div class="service-card" data-service="Solicitud para que terceros paguén la pensión adeudada">
+                <img src="imag/12.png" alt="12 Icon" class="service-icon">
+                <span class="service-number">12</span>
+                <h3>Solicitud para que terceros paguén la pensión adeudada</h3>
+            </div>
+            <div class="service-card" data-service="Orden de Arresto a Terceros (que oculten al alimentante)">
+                <img src="imag/13.png" alt="13 Icon" class="service-icon">
+                <span class="service-number">13</span>
+                <h3>Orden de Arresto a Terceros (que oculten al alimentante)</h3>
+            </div>
+            <div class="service-card" data-service="Acción de Reembolso en contra del Alimentante">
+                <img src="imag/14.png" alt="14 Icon" class="service-icon">
+                <span class="service-number">14</span>
+                <h3>Acción de Reembolso en contra del Alimentante</h3>
+            </div>
+            <div class="service-card" data-service="Condonación de Deuda Alimenticia">
+                <img src="imag/15.png" alt="15 Icon" class="service-icon">
+                <span class="service-number">15</span>
+                <h3>Condonación de Deuda Alimenticia</h3>
+            </div>
+            <div class="service-card" data-service="Procedimiento Especial para el Cobro de Deuda de Pensión">
+                <img src="imag/16.png" alt="16 Icon" class="service-icon">
+                <span class="service-number">16</span>
+                <h3>Procedimiento Especial para el Cobro de Deuda de Pensión</h3>
+            </div>
+            <div class="service-card" data-service="Procedimiento Extraordinario para el Cobro de Deuda de Pensión">
+                <img src="imag/17.png" alt="17 Icon" class="service-icon">
+                <span class="service-number">17</span>
+                <h3>Procedimiento Extraordinario para el Cobro de Deuda de Pensión</h3>
+            </div>
+            <div class="service-card" data-service="Pago Solidario de la AFP">
+                <img src="imag/18.png" alt="18 Icon" class="service-icon">
+                <span class="service-number">18</span>
+                <h3>Pago Solidario de la AFP</h3>
+            </div>
+            <div class="service-card" data-service="Inscripción en el Registro Nacional de Deudores">
+                <img src="imag/19.png" alt="19 Icon" class="service-icon">
+                <span class="service-number">19</span>
+                <h3>Inscripción en el Registro Nacional de Deudores</h3>
+            </div>
+            <div class="service-card" data-service="Objeción a la Solicitud de Inscripción en el Registro Nacional de Deudores">
+                <img src="imag/20.png" alt="20 Icon" class="service-icon">
+                <span class="service-number">20</span>
+                <h3>Objeción a la Solicitud de Inscripción en el Registro Nacional de Deudores</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for request form -->
+    <div id="requestModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Solicitar Servicio</h2>
+            <form id="requestForm">
+                <label for="service">Servicio:</label>
+                <input type="text" id="service" name="service" readonly>
+
+                <div id="requirements" class="requirements-section">
+                    <h3>Requisitos Necesarios:</h3>
+                    <ul id="requirements-list"></ul>
+                </div>
+
+                <button type="button" id="whatsappBtn" class="whatsapp-btn">Contactanos</button>
+    </div>
+
+    <footer>
+        <p>© 2025 Fazilito - Gestión de Causas de Cumplimiento</p>
+        <p>Facilitamos tus trámites legales</p>
+    </footer>
+
+    <script src="scrpt.js"></script>
+</body>
+</html>

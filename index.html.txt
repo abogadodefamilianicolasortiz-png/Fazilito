@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazilito - Gestión de Causas de Cumplimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">⚖️ Fazilito</div>
+    </header>
+
+    <section class="hero">
+        <h1>Gestión de Causas de Cumplimiento</h1>
+        <p>Tramitamos todas tus gestiones legales de forma rápida y eficiente</p>
+        <button class="cta-button" onclick="scrollToServices()">Ver Servicios</button>
+    </section>
+
+    <section class="services" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <span class="service-number">1</span>
+                <h3>Conversión a UTM</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">2</span>
+                <h3>Retención de Salario, Honorarios y Pensión</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">3</span>
+                <h3>Información de la Entidad que debe Retener</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">4</span>
+                <h3>Pago de Pensión como Usufructo, Uso o Habitación</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">5</span>
+                <h3>Solicitud de Prenda o Hipoteca</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">6</span>
+                <h3>Solicitud de Prenda o Hipoteca del Alimentante que Sale del País</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">7</span>
+                <h3>Solicitud de Multa a Beneficio Fiscal</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">8</span>
+                <h3>Solicitud de Orden de Arresto y Tramitación</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">9</span>
+                <h3>Solicitud para que la TGR haga Retención de Impuestos Anual</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">10</span>
+                <h3>Solicitud de Retención Bancaria</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">11</span>
+                <h3>Suspensión de la Licencia de Conducir</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">12</span>
+                <h3>Solicitud de Pago Solidario de Terceros</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">13</span>
+                <h3>Orden de Arresto a Terceros (que oculten al alimentante)</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">14</span>
+                <h3>Acción de Reembolso en contra del Alimentante</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">15</span>
+                <h3>Condonación de Deuda Alimenticia</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">16</span>
+                <h3>Procedimiento Especial para el Cobro de Deuda de Pensión</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">17</span>
+                <h3>Procedimiento Extraordinario para el Cobro de Deuda de Pensión</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">18</span>
+                <h3>Pago Solidario de la AFP</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">19</span>
+                <h3>Inscripción en el Registro Nacional de Deudores</h3>
+            </div>
+            <div class="service-card">
+                <span class="service-number">20</span>
+                <h3>Objeción a la Solicitud de Inscripción en el Registro Nacional de Deudores</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Fazilito - Gestión de Causas de Cumplimiento</p>
+        <p>Facilitamos tus trámites legales</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

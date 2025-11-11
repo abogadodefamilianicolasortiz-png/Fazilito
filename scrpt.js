@@ -20,7 +20,7 @@ const serviceRequirements = {
     ],
     "Solicitud de Prenda o Hipoteca": [
         "Certificado de Dominio Vigente",
-],
+ ],
     "Solicitud de Prenda o Hipoteca del Alimentante que Sale del País": [
         "Prueba de salida del país",
         "Bienes del alimentante",
@@ -126,7 +126,6 @@ window.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 });
-
 
 
 

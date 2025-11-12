@@ -55,7 +55,7 @@ header {
     position: relative;
     display: inline-block;
     color: #cb6ce6;
-    text-shadow: 2px 2px 2px (0, 0, 0, 0.5);
+    text-shadow: none;
 }
 
 .hero h1 span::before {

@@ -28,10 +28,10 @@ header {
 }
 
 .logo img {
-    height: 450px;
+    height: 250px;
     width: auto;
     position: relative;
-    top: 45px;
+    top: -10px;
     left: 0;
     animation: fadeInLogo 2s ease;
 }
